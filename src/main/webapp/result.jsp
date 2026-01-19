@@ -8,10 +8,9 @@
 <body>
 
 <h2>診断結果</h2>
+<p><%= request.getAttribute("result") %></p>
 
-<p>${resultMessage}</p>
-
-<a href="index.jsp">最初に戻る</a>
+<a href="<%= request.getContextPath() %>/index.jsp">最初に戻る</a>
 
 </body>
 </html>
