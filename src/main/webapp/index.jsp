@@ -32,7 +32,7 @@
 <h1>スマホのお困りごと診断</h1>
 <p>次の中から、あなたの困りごとを選んでください：</p>
 
-<form action="<%= request.getContextPath() %>/MainServlet" method="post">
+<form action="MainServlet" method="post">
     <label><input type="radio" name="issue" value="1" required> バッテリーの劣化・持ち</label><br>
     <label><input type="radio" name="issue" value="2"> データ容量不足</label><br>
     <label><input type="radio" name="issue" value="3"> 通信速度の不足</label><br>
