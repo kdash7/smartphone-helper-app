@@ -1,10 +1,11 @@
 FROM tomcat:10.1-jdk17
 
-# 既存アプリ削除
+# デフォルトアプリ削除
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-# war を配置
-COPY SmartphoneHelperApp.war /usr/local/tomcat/webapps/ROOT.war
+# Webアプリをそのまま配置
+COPY src/main/webapp /usr/local/tomcat/webapps/ROOT/
+COPY src/main/java /usr/local/tomcat/src/
 
 EXPOSE 8080
 
