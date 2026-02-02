@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>スマホお困りごと診断</title>
     <style>
-        body { font-family: sans-serif; background-color: #f9fafc; text-align: center; margin-top: 50px; }
+        body { font-family: sans-serif; background-color: #f9fafc;
+                text-align: center; margin-top: 50px; }
         h1 { color: #333; }
         form {
             display: inline-block;
@@ -30,14 +31,14 @@
 <body>
 
 <h1>スマホのお困りごと診断</h1>
-<p>次の中から、あなたの困りごとを選んでください：</p>
+<p>次の中から、あなたの困りごとを選んでください。</p>
 
 <form action="MainServlet" method="post">
-    <label><input type="radio" name="issue" value="1" required> バッテリーの劣化・持ち</label><br>
-    <label><input type="radio" name="issue" value="2"> データ容量不足</label><br>
-    <label><input type="radio" name="issue" value="3"> 通信速度の不足</label><br>
-    <label><input type="radio" name="issue" value="4"> 料金プランに関する不満</label><br>
-    <label><input type="radio" name="issue" value="5"> セキュリティ上のトラブル</label><br>
+    <label><input type="radio" name="issue" value="1" required> バッテリー持ちが悪い</label><br>
+    <label><input type="radio" name="issue" value="2"> データ容量がいっぱい</label><br>
+    <label><input type="radio" name="issue" value="3"> 通信速度が遅い</label><br>
+    <label><input type="radio" name="issue" value="4"> 月額料金が高い</label><br>
+    <label><input type="radio" name="issue" value="5"> セキュリティが不安</label><br>
 
     <button type="submit">次へ</button>
 </form>

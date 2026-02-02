@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    background: #fff;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    width: 100%;
+    margin-top: 24px;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #4f7cff;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 16px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+
+.question {
+    margin-bottom: 24px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+.result {
+    padding: 20px;
+    background: #f0f4ff;
+    border-radius: 12px;
+    line-height: 1.6;
+}
