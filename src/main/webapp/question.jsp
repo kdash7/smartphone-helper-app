@@ -17,8 +17,8 @@
     <form action="<%= request.getContextPath() %>/ResultServlet" method="post">
         <input type="hidden" name="issueId" value="1">
 
-        <div class="question">
-            <p>Q1. 100%から0%になるまでどのくらい？</p>
+        <div class="question-block">
+            <p class="question-text">Q1. 100%から0%になるまでどのくらい？</p>
             <label>
                 <input type="radio" name="q1" value="1" required class="battery-q1">
                 1日以上
@@ -35,7 +35,7 @@
             </label><br>
 
             <div id="battery-q2" style="display:none;">
-                <p>Q2. 使い始めて何年くらい？</p>
+                <p class="question-text">Q2. 使い始めて何年くらい？</p>
                 <label><input type="radio" name="q2" value="1"> 2年以上</label><br>
                 <label><input type="radio" name="q2" value="2"> 1年以上2年未満</label><br>
                 <label><input type="radio" name="q2" value="3"> 1年未満</label><br>
@@ -54,8 +54,8 @@
     <form action="<%= request.getContextPath() %>/ResultServlet" method="post">
         <input type="hidden" name="issueId" value="2">
 
-        <div class="question">
-            <p>Q1. 設定画面で見たストレージ使用量はどのくらい？</p>
+        <div class="question-block">
+            <p class="question-text">Q1. 設定画面で見たストレージ使用量はどのくらい？</p>
 
             <label><input type="radio" name="q1" value="1" required> 70%未満</label><br>
             <label><input type="radio" name="q1" value="2"> 70〜90%</label><br>
@@ -74,8 +74,8 @@
     <form action="<%= request.getContextPath() %>/ResultServlet" method="post">
         <input type="hidden" name="issueId" value="3">
 
-        <div class="question">
-            <p>Q1. 遅く感じる通信方法は？</p>
+        <div class="question-block">
+            <p class="question-text">Q1. 遅く感じる通信方法は？</p>
             <label>
                 <input type="radio" name="q1" value="1" required class="speed-q1">
                 モバイルデータ
@@ -92,7 +92,7 @@
             </label><br>
 
             <div id="speed-q2" style="display:none;">
-                <p>Q2.（モバイルデータの場合）遅く感じるタイミングは？</p>
+                <p class="question-text">Q2.（モバイルデータの場合）遅く感じるタイミングは？</p>
                 <label><input type="radio" name="q2" value="1"> 常に</label><br>
                 <label><input type="radio" name="q2" value="2"> 時々</label><br>
                 <label><input type="radio" name="q2" value="3"> 月末あたり</label><br>
@@ -111,8 +111,8 @@
     <form action="<%= request.getContextPath() %>/ResultServlet" method="post">
         <input type="hidden" name="issueId" value="4">
 
-        <div class="question">
-            <p>Q1. 使用可能データ通信量は足りてる？</p>
+        <div class="question-block">
+            <p class="question-text">Q1. 使用可能データ通信量は足りてる？</p>
             <label>
                 <input type="radio" name="q1" value="1" required class="plan-q1">
                 結構余っている
@@ -129,7 +129,7 @@
             </label><br>
 
             <div id="plan-q2" style="display:none;">
-                <p>Q2.（足りない場合）通話は自分からどのくらいかける？</p>
+                <p class="question-text">Q2.通話は自分からどのくらいかける？</p>
                 <label>
                     <input type="radio" name="q2" value="1" class="plan-q2">
                     長時間かける
@@ -147,7 +147,7 @@
             </div>
 
             <div id="plan-q3" style="display:none;">
-                <p>Q3. 通話かけ放題にしてる？</p>
+                <p class="question-text">Q3. 通話かけ放題にしてる？</p>
                 <label><input type="radio" name="q3" value="1"> している</label><br>
                 <label><input type="radio" name="q3" value="2"> 5分（10分）かけ放題</label><br>
                 <label><input type="radio" name="q3" value="3"> していない</label><br>
@@ -166,8 +166,8 @@
     <form action="<%= request.getContextPath() %>/ResultServlet" method="post">
         <input type="hidden" name="issueId" value="5">
 
-        <div class="question">
-            <p>Q1. 怪しい出来事があった？</p>
+        <div class="question-block">
+            <p class="question-text">Q1. 怪しい出来事があった？</p>
             <label>
                 <input type="radio" name="q1" value="1" required class="security-q1">
                 あった
@@ -179,7 +179,7 @@
             </label><br>
 
             <div id="security-q2" style="display:none;">
-                <p>Q2. セキュリティアプリは設定してる？</p>
+                <p class="question-text">Q2. セキュリティアプリは設定してる？</p>
                 <label>
                     <input type="radio" name="q2" value="1">
                     している

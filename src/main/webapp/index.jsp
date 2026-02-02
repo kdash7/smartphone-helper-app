@@ -3,6 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/style.css">
     <title>スマホお困りごと診断</title>
     <style>
         body { font-family: sans-serif; background-color: #f9fafc;
@@ -13,7 +14,7 @@
             text-align: left;
             padding: 20px;
             background-color: #fff;
-            border-radius: 10px;
+            border-radius: 5px;
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
         button {
@@ -28,7 +29,7 @@
         button:hover { background-color: #45a049; }
     </style>
 </head>
-<body>
+<body class="index-page">
 
 <h1>スマホのお困りごと診断</h1>
 <p>次の中から、あなたの困りごとを選んでください。</p>

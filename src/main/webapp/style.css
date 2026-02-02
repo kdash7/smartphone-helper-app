@@ -8,11 +8,20 @@ body {
 	font-size: 24px;
 }
 
+.index-page {
+    font-size: 1.4rem;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 24px;
     background: #fff;
+}
+
+.question-text {
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 p {
@@ -48,14 +57,26 @@ button:hover {
     opacity: 0.9;
 }
 
+.result {
+    font-size: 1.6rem;
+}
+
 @media screen and (max-width: 600px) { /* スマホ用 */
 
+    .index-page {
+        font-size: 2.6rem; /* スマホで約2.6倍 */
+    }
+
     body {
-        font-size: 32px;
+        font-size: 1.3rem;
     }
 
     .container {
         padding: 24px;
+    }
+
+    .question-text {
+        font-size: 2.2rem;
     }
 
     p {
@@ -72,19 +93,24 @@ button:hover {
         font-size: 1em;
         padding: 20px;
     }
-}
 
-.question {
-    margin-bottom: 24px;
-}
+    .question {
+        margin-bottom: 24px;
+    }
 
-.question p {
-    font-weight: bold;
-}
+    .question p {
+       font-weight: bold;
+    }
 
-.result {
-    padding: 20px;
-    background: #f0f4ff;
-    border-radius: 12px;
-    line-height: 1.6;
+    .question-block {
+        font-size: 1rem;
+    }
+
+    .result {
+        padding: 20px;
+        background: #f0f4ff;
+        border-radius: 12px;
+        line-height: 1.6;
+        font-size: 2.4rem;
+    }
 }
