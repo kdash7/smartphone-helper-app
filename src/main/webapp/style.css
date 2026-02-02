@@ -12,6 +12,17 @@ body {
     font-size: 1.4rem;
 }
 
+.index-description {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.index-page label {
+    margin-bottom: 0px;
+    padding: 8px 12px;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -57,18 +68,27 @@ button:hover {
     opacity: 0.9;
 }
 
-.result {
-    font-size: 1.6rem;
+.result-page .result {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.result-answer {
+	font-size: 1.5rem;
 }
 
 @media screen and (max-width: 600px) { /* スマホ用 */
 
     .index-page {
-        font-size: 2.6rem; /* スマホで約2.6倍 */
+        font-size: 2.6rem;
+    }
+
+    .index-description {
+        font-size: 2.4rem;
     }
 
     body {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .container {
@@ -87,11 +107,12 @@ button:hover {
         display: flex;
         align-items: center;
         gap: 12px;
+        font-size: 1.8rem;
     }
 
     button {
-        font-size: 1em;
-        padding: 20px;
+        font-size: 2em;
+        padding: 18px;
     }
 
     .question {

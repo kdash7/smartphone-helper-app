@@ -7,18 +7,18 @@
     <title>スマホお困りごと診断</title>
     <style>
         body { font-family: sans-serif; background-color: #f9fafc;
-                text-align: center; margin-top: 50px; }
+                text-align: center; margin-top: 40px; }
         h1 { color: #333; }
         form {
             display: inline-block;
             text-align: left;
             padding: 20px;
             background-color: #fff;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
         button {
-            margin-top: 20px;
+            margin-top: 10px;
             padding: 8px 16px;
             border: none;
             border-radius: 5px;
@@ -32,7 +32,7 @@
 <body class="index-page">
 
 <h1>スマホのお困りごと診断</h1>
-<p>次の中から、あなたの困りごとを選んでください。</p>
+<p class="index-description">次の中から、あなたの困りごとを選んでください。</p>
 
 <form action="MainServlet" method="post">
     <label><input type="radio" name="issue" value="1" required> バッテリー持ちが悪い</label><br>
