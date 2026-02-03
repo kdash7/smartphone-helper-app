@@ -98,13 +98,13 @@ SmartphoneHelperApp
    ```bash
    git clone https://github.com/kdash7/smartphone-helper-app.git
 
-２．Eclipse で「既存の Maven プロジェクト」としてインポートします。
+2．Eclipse で「既存の Maven プロジェクト」としてインポートします。
 
-３．Tomcat 10.x をサーバーとして設定し、プロジェクトを追加します。
+3．Tomcat 10.x をサーバーとして設定し、プロジェクトを追加します。
 
-４．Eclipse からサーバーを起動します。
+4．Eclipse からサーバーを起動します。
 
-５．ブラウザで以下にアクセスします。  
+5．ブラウザで以下にアクセスします。  
    http://localhost:8080/SmartphoneHelperApp/
 
 ---
