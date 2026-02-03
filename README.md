@@ -105,6 +105,7 @@ SmartphoneHelperApp
 ４．Eclipse からサーバーを起動します。
 
 ５．ブラウザで以下にアクセスします。
+
    http://localhost:8080/SmartphoneHelperApp/
 
 ---
@@ -131,4 +132,5 @@ SmartphoneHelperApp
 - 条件分岐の考え方
 - 質問設計の意図
 - スマホ向けUIで工夫した点
+
 について説明できる構成を意識しています。
