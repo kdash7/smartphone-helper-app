@@ -68,19 +68,19 @@ https://smartphone-helper-app.onrender.com
 
 ## ディレクトリ構成（抜粋）
 
-SmartphoneHelperApp
-├─ src
-│ └─ main
-│ ├─ java
-│ │ └─ smartphoneHelperApp
-│ │ ├─ MainServlet.java
-│ │ └─ ResultServlet.java
-│ └─ webapp
-│ ├─ index.jsp
-│ ├─ question.jsp
-│ ├─ result.jsp
-│ └─ style.css
-└─ pom.xml
+SmartphoneHelperApp  
+├─ src  
+│ └─ main  
+│ ├─ java  
+│ │ └─ smartphoneHelperApp  
+│ │ ├─ MainServlet.java  
+│ │ └─ ResultServlet.java  
+│ └─ webapp  
+│ ├─ index.jsp  
+│ ├─ question.jsp  
+│ ├─ result.jsp  
+│ └─ style.css  
+└─ pom.xml  
 
 ---
 
@@ -104,8 +104,7 @@ SmartphoneHelperApp
 
 ４．Eclipse からサーバーを起動します。
 
-５．ブラウザで以下にアクセスします。
-
+５．ブラウザで以下にアクセスします。  
    http://localhost:8080/SmartphoneHelperApp/
 
 ---
