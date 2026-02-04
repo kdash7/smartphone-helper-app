@@ -70,16 +70,16 @@ https://smartphone-helper-app.onrender.com
 
 SmartphoneHelperApp  
 ├─ src  
-│ └─ main  
-│ ├─ java  
-│ │ └─ smartphoneHelperApp  
-│ │ ├─ MainServlet.java  
-│ │ └─ ResultServlet.java  
-│ └─ webapp  
-│ ├─ index.jsp  
-│ ├─ question.jsp  
-│ ├─ result.jsp  
-│ └─ style.css  
+│　 └─ main  
+│　　　 ├─ java  
+│　　　 │　 └─ smartphoneHelperApp  
+│　　　 │　　　 ├─ MainServlet.java  
+│　　　 │　　　 └─ ResultServlet.java  
+│　　　 └─ webapp  
+│　　　　　 ├─ index.jsp  
+│　　　　　 ├─ question.jsp  
+│　　　　　 ├─ result.jsp  
+│　　　　　 └─ style.css  
 └─ pom.xml  
 
 ---
